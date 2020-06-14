@@ -14,7 +14,7 @@ $query = "INSERT INTO articles(judul,penulis,lead,content,waktu)
 
 if (mysqli_query($koneksi, $query)) {
     echo "<h3 align=center>Proses penambahan artikel berhasil</h3>";
-    echo "<A href=\"13TampilanArtikel.php\">List</A>";
+    echo "<A href=\"Tampilan.php\">List</A>";
 } else {
     echo "<h2 align=center>Proses penambahan artikel tidak berhasil</h2>";
     echo $judul;
